@@ -728,23 +728,3 @@ class GessGame:
         else:
             move_status = False
         return move_status
-
-
-"""
-gess = GessGame()
-gess.print_board()
-print('CURRENT PLAYER:', gess.get_current_player())
-print('GAME STATE:', gess.get_game_state())
-gess.make_move('f7', 'm14')
-gess.make_move('i14', 'l14')
-gess.make_move('i7', 'i18')
-gess.make_move('i18', 'i15')
-gess.make_move('l7', 'l14')
-gess.make_move('l18', 'l15')
-gess.make_move('h3', 'h17')
-gess.make_move('l15', 'l14')
-gess.make_move('h16', 'l16')
-gess.make_move('l14', 'l11')
-gess.make_move('l3', 'l6')
-gess.make_move('l11', 'l8')
-"""
